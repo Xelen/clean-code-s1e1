@@ -15,6 +15,8 @@
 }
 .header__info {
   font-family: fantasy, cursive;
+  top: -3px;
+  position: relative
 }
 
 @media (max-width:768px) {
@@ -59,6 +61,7 @@
 .btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .section__title {
   color: #333;
@@ -73,7 +76,7 @@
   margin: 0;
   font-size: 18px;
   line-height: 18px;
-  height: 21px;
+  height: 20px;
   padding: 0 9px;
   border: 1px solid #ddd;
   background: #fff;
@@ -90,18 +93,26 @@
 .section_add .label {
   display: block;
   margin: 0 0 20px;
+  width: 100%;
+  font-size: 15px;
+  padding: 41px 0 10px;
+  margin: 0;
+}
+.section_add .list__item {
+  border-bottom:none;
+  padding: 20px 0 18px;
 }
 .list_new .task {
   display: flex;
   width: 318px;
 }
 .section_add .task {
-  display: block;
+  display: inline-block;
 }
 /* Task list */
 .list__item {
   overflow: hidden;
-  padding: 20px 0;
+  padding: 18px 0;
   border-bottom: 1px solid #eee;
   display: flex;
   justify-content: space-between;
